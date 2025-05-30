@@ -32,6 +32,9 @@ jobs:
       - name: Generate HTML
         run: python3 -m ngapp.cli.build_website -a demo_app.appconfig
 
+      - name: Remove asserts symlink
+        run: rm -f html/assets/asserts
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
