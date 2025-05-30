@@ -24,7 +24,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install ngapp
-        run: pip3 install --upgrade --no-cache ngapp
+        run: pip3 install --upgrade --no-cache 'ngapp[dev]'
 
       - name: Build and install app
         run: pip3 install .
