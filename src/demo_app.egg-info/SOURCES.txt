@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/demo_app/__init__.py
+src/demo_app/__main__.py
+src/demo_app/app.py
+src/demo_app/appconfig.py
+src/demo_app.egg-info/PKG-INFO
+src/demo_app.egg-info/SOURCES.txt
+src/demo_app.egg-info/dependency_links.txt
+src/demo_app.egg-info/requires.txt
+src/demo_app.egg-info/top_level.txt
